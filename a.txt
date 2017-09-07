@@ -1,0 +1,5 @@
+ /*  ,"dev" : "WEBPACK=dev webpack-dev-server --inline --port 8080"
+    ,"dev_win" : "set WEBPACK=dev  && webpack-dev-server --inline --port 8080"
+    ,"dist" : "WEBPACK=online webpack -p"
+    npm run dev_win
+    */
