@@ -3,3 +3,23 @@
     ,"dist" : "WEBPACK=online webpack -p"
     npm run dev_win
     */
+
+    hogan
+
+    font-awesome
+
+   快捷键
+   div.className + tab <div class="className"></div>
+   div#idName + tab <div id="idName"></div>
+
+   <!--    <div>
+           <a  class="link">test</a>
+           <a  class="link-text">test</a>
+       </div>
+       <div>
+           <button class="btn ">button1</button>
+           <button class="btn btn-mini">button2</button>
+       </div>
+       <div>
+           <div class="loading"></div>
+       </div>-->

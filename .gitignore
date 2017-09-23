@@ -1,4 +1,2 @@
-.idea/mall.iml
-.idea/modules.xml
-.idea.workspace.xml
-node_modules/
+node_modules
+.idea

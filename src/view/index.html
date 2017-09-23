@@ -1,9 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-    <%= require('html-loader!./layout/head.html') %>
+<head>
+    <%= require('html-loader!./layout/headCommon.html') %>
+    <title>mall 电商项目</title>
+</head>
 <body>
-    hello webpack-dev-server
-    <script src="https://cdn.bootcss.com/jquery/2.2.0/jquery.js"></script>
-    <script type="text/javascript" src="../../dist/js/index.js"></script>
+    <%= require('html-loader!./layout/nav.html') %>
+    <%= require('html-loader!./layout/header.html') %>
+    <div class="page-wrap w">
+        <%= require('html-loader!./layout/nav-side.html') %>
+        <div class="content with-nav">test</div>
+    </div>
+    <%= require('html-loader!./layout/foot.html') %>
 </body>
 </html>

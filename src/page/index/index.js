@@ -3,17 +3,13 @@
 // require('../module.js');
 // require('./index.css');
 
-// console.log("index hello");
+require('page/common/nav/index.js');
+require('page/common/header/index.js');
+var navSide = require('page/common/nav-side/index.js');
 
-// $('body').html('hello jQuery');
-//  ajax 跨域访问
+
+
 var _mm = require('util/mm.js');
-_mm.request({
-	url : './test.do',
-	success : function(res){
-		console.log(res);
-	},
-	error : function(res){
-		console.log(res);
-	}
+navSide.init({
+    name : 'user-center'
 });
